@@ -1,0 +1,34 @@
+Setup
+
+ Git-Repository erstellen.
+ Verzeichnisstruktur anlegen (Todo, src, spec).
+ Initial-Commit mit leeren Dateien (stringSum-Funktion in src, Testdatei in spec).
+Grundanforderungen und Tests
+
+ Failing Test schreiben: Wenn beide Eingaben natürliche Zahlen sind, sollte ihre Summe korrekt berechnet werden.
+ Einfachste Implementierung der Funktion schreiben, die die Summe zurückgibt.
+ Refactoring, falls nötig.
+Fehlende Eingaben
+
+ Failing Test schreiben: Wenn num1 oder num2 leer ist, soll dies als 0 betrachtet werden.
+ Implementiere Code, um leere Eingaben als 0 zu interpretieren.
+ Refactoring, falls nötig.
+Ungültige Eingaben
+
+ Failing Test schreiben: Wenn eine Eingabe keine natürliche Zahl ist (z.B. negative Zahlen, Buchstaben), soll sie als 0 interpretiert werden.
+ Implementiere Code, um ungültige Eingaben als 0 zu behandeln.
+ Refactoring, falls nötig.
+Große Zahlen
+
+ Failing Test schreiben: Prüfen, ob die Funktion mit großen Zahlen (z.B. 999999999 + 1) korrekt umgeht.
+ Implementiere Code für die Berechnung bei großen Zahlen.
+ Refactoring, falls nötig.
+Zusätzliche Tests für Robustheit
+
+ Failing Test schreiben: Wenn beide Eingaben 0 sind, sollte das Ergebnis 0 sein.
+ Implementiere Code zur Unterstützung des Falls 0 + 0.
+ Refactoring, falls nötig.
+Finaler Testlauf und Abschluss
+
+ Alle Tests final durchführen, um sicherzustellen, dass die Anforderungen vollständig erfüllt sind.
+ Projektverzeichnis zippen und auf Moodle hochladen.
